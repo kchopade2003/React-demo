@@ -4,6 +4,8 @@ import Intro1 from './components/Intro1';
 import Hello from './JSX/Hello';
 import Student1 from './Props/Student1';
 import Student2 from './Props/Student2';
+import Enroll from './State/Enroll';
+import Counter from './State/Counter';
 
 function App() {
   return (
@@ -21,11 +23,15 @@ function App() {
       <Student1 Name="Ketan" RollNo= "13"></Student1>
       <Student1 Name="Sid" RollNo= "54"></Student1> */}
 
-      <Student2 name= "Ketan" RollNo= "5"></Student2>
+      {/* <Student2 name= "Ketan" RollNo= "5"></Student2>
       <Student2 name= "Durvesh" RollNo= "15">
         <h6>Student2</h6>
       </Student2>
-      <Student2 name= "Sid" RollNo= "25"></Student2>
+      <Student2 name= "Sid" RollNo= "25"></Student2> */}
+
+      {/* <Enroll></Enroll> */}
+
+      <Counter></Counter>
     </div>
   );
 }
