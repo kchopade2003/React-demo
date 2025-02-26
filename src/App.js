@@ -6,6 +6,10 @@ import Student1 from './Props/Student1';
 import Student2 from './Props/Student2';
 import Enroll from './State/Enroll';
 import Counter from './State/Counter';
+import UseStateHook1 from './useState/UseStateHook1';
+import UseStateHook2 from './useState/UseStateHook2';
+import UseStateHook3 from './useState/UseStateHook3';
+import UseStateHook4 from './useState/UseStateHook4';
 
 function App() {
   return (
@@ -31,7 +35,15 @@ function App() {
 
       {/* <Enroll></Enroll> */}
 
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+
+      {/* <UseStateHook1></UseStateHook1> */}
+
+      {/* <UseStateHook2></UseStateHook2> */}
+
+      {/* <UseStateHook3></UseStateHook3> */}
+
+      <UseStateHook4></UseStateHook4>
     </div>
   );
 }
