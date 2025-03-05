@@ -10,11 +10,13 @@ import UseStateHook1 from './useState/UseStateHook1';
 import UseStateHook2 from './useState/UseStateHook2';
 import UseStateHook3 from './useState/UseStateHook3';
 import UseStateHook4 from './useState/UseStateHook4';
+import UseEffectHook1 from './useEffect/UseEffectHook1';
+import UseEffectHook2 from './useEffect/UseEffectHook2';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      {/* <h1>Hello World!</h1> */}
       <h2>VESITians</h2>
 
       {/* <Intro1></Intro1> */}
@@ -43,7 +45,11 @@ function App() {
 
       {/* <UseStateHook3></UseStateHook3> */}
 
-      <UseStateHook4></UseStateHook4>
+      {/* <UseStateHook4></UseStateHook4> */}
+
+      {/* <UseEffectHook1></UseEffectHook1> */}
+
+      {/* <UseEffectHook2></UseEffectHook2> */}
     </div>
   );
 }
